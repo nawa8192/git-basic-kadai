@@ -1,0 +1,9 @@
+kemit@pcnawapc MINGW64 ~/OneDrive/Desktop/git_challenge (main)
+$ git commit -m "２回目ファイルコミット"
+[main f2d16a5] ２回目ファイルコミット
+ 1 file changed, 2 insertions(+)
+
+kemit@pcnawapc MINGW64 ~/OneDrive/Desktop/git_challenge (main)
+$ git log --oneline
+f2d16a5 (HEAD -> main) ２回目ファイルコミット
+f62e1d0 1回目ファイルコミット
