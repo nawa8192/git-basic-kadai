@@ -1,0 +1,18 @@
+PS C:\Users\kemit\OneDrive\Desktop\git_challenge> cd
+PS C:\Users\kemit\OneDrive\Desktop\git_challenge> git init
+Reinitialized existing Git repository in C:/Users/kemit/OneDrive/Desktop/git_challenge/.git/
+PS C:\Users\kemit\OneDrive\Desktop\git_challenge> echo "Hello, world!" >> hello_world.txt
+PS C:\Users\kemit\OneDrive\Desktop\git_challenge> git add hello_world.txt
+PS C:\Users\kemit\OneDrive\Desktop\git_challenge> git commit -m "first commit message"
+[main 61f83f2] first commit message
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\kemit\OneDrive\Desktop\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
+PS C:\Users\kemit\OneDrive\Desktop\git_challenge> git add hello_world.txt
+PS C:\Users\kemit\OneDrive\Desktop\git_challenge> git commit -m "second commit message"
+[main 7dbd54a] second commit message
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\kemit\OneDrive\Desktop\git_challenge> git log --oneline
+7dbd54a (HEAD -> main) second commit message
+61f83f2 first commit message
+5c0a509 (origin/main, origin/HEAD) second commit message
+7fb8b99 first commit message
